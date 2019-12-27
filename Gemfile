@@ -11,7 +11,7 @@ group :development, :test do
 end
 
 group :production do
-  gen 'pg'
+  gem 'pg'
 end
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
